@@ -9,11 +9,21 @@
             background-color: coral;
             display: flex;
             text-align: center;
+            flex-direction: row;
+            
         }
+        
         .item {
-            flex:auto;
+            padding: 10px;
             background-color: lightcoral;
             border: 1px solid black;
+            flex: auto;
+        }
+        
+
+        .item:hover {
+            background-color: rgb(168, 83, 52);
+            transform: translateY(-5px);
         }
     </style>
 </head>
