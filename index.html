@@ -3,38 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flex Box</title>
+    <title>Flex Box Centralizado</title>
     <style>
-        .pai {
-            background-color: coral;
-            display: flex;
-            text-align: center;
-            flex-flow: row nowrap;
-            justify-content: space-around;            
-        }
-        
-        .item {
-            padding: 10px;
-            background-color: lightcoral;
-            border: 1px solid black;
-            
-        }
-        
 
-        .item:hover {
-            background-color: rgb(168, 83, 52);
-            transform: translateY(-5px);
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        body  {
+            background-color: burlywood;
+        }
+
+        main {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row nowrap;
+        }
+
+        section {
+            background-color: aquamarine;
+            height: 200px;
+            width: 200px;
+
         }
     </style>
+    
 </head>
 <body>
-    <div class="pai">
-        <div class="item">A</div>
-        <div class="item">B</div>
-        <div class="item">C</div>
-        <div class="item">D</div>
-        <div class="item">E</div>
-        <div class="item">F</div>
-    </div>
+    <main>
+        <section>
+            <h1>Tela de Login</h1>
+        </section>
+    </main>
 </body>
 </html>
