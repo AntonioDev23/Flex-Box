@@ -61,3 +61,19 @@ main {
     border-bottom: 10px;
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.384);
 }
+
+@media (max-width: 580px) { 
+    
+        header, header > nav {
+            flex-flow: column nowrap;
+        }
+
+        header > h1 {
+            flex-basis: 50px;
+        }
+
+        header > nav> a {
+            width: 80vw;
+        }
+
+}
