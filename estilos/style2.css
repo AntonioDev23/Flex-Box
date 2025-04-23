@@ -16,3 +16,12 @@ p, h1, h2 {
     margin-bottom: 10px;
     text-align: justify;
 }
+
+header, section.normal {
+    padding: 20px;
+}
+
+section.flex-content {
+    padding: 20px;
+    background-color: burlywood;
+}
