@@ -30,8 +30,10 @@ section.flex-content {
 
 article.text-media {
     display: flex;
+    flex-flow: row wrap;
 }
 
 article.media-text {
     display: flex;
+    
 }
