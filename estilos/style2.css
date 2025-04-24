@@ -35,5 +35,6 @@ article.text-media {
 
 article.media-text {
     display: flex;
-    
+    flex-flow: row wrap-reverse;
 }
+
