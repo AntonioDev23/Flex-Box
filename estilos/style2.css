@@ -12,7 +12,13 @@ body {
     line-height: 1.5em;
 }
 
-p, h1, h2 {
+h1, h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+}
+
+p {
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -54,6 +60,7 @@ article > div.media {
     display: block;
     margin: auto;
     width: 350px;
+    padding: 10px;
     
 }
 
