@@ -42,12 +42,12 @@ article.media-text {
 
 article > div.text {
     flex: 1 1 500px;
-    border: 2px dashed coral;
+    
 }
 
 article > div.media {
     flex: 1 0 400px;
-    border: 2px dashed green;
+    
 }
 
 .media img {
