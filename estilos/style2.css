@@ -54,11 +54,12 @@ article > div.media {
     display: block;
     margin: auto;
     width: 350px;
-    height: 350px;
+    
 }
 
 .media iframe {
     display: block;
     margin: auto;
+    width: 90%;
     
 }
